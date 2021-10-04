@@ -1,44 +1,261 @@
 {
   "Senin": [
     {
-      "id":1,
-      "nama":"Senin"
+      "id": 1,
+      "nama": "Bambang Sumarno",
+      "spesialis": "Kandungan",
+      "jam": "9:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 2,
+      "nama": "Ridwan Daud Wibowo",
+      "spesialis": "Kandungan",
+      "jam": "10:00",
+      "ruang": "E304"
+    },
+    {
+      "id": 3,
+      "nama": "Nur Saiful Wibowo",
+      "spesialis": "Kandungan",
+      "jam": "14:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 4,
+      "nama": "Iman Danial Wibowo",
+      "spesialis": "Kandungan",
+      "jam": "17:00",
+      "ruang": "D204"
+    },
+    {
+      "id": 5,
+      "nama": "Putra Muhamad Wibawa",
+      "spesialis": "Kandungan",
+      "jam": "19:00",
+      "ruang": "E301"
     }
   ],
   "Selasa": [
     {
-      "id":1,
-      "nama":"Selasa"
+      "id": 6,
+      "nama": "Sri Putri Wibowo",
+      "spesialis": "Kandungan",
+      "jam": "9:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 7,
+      "nama": "Kusuma Mega",
+      "spesialis": "Kandungan",
+      "jam": "10:00",
+      "ruang": "E304"
+    },
+    {
+      "id": 3,
+      "nama": "Kusuma Dian",
+      "spesialis": "Kandungan",
+      "jam": "14:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 4,
+      "nama": "Indah Tri",
+      "spesialis": "Kandungan",
+      "jam": "17:00",
+      "ruang": "D204"
+    },
+    {
+      "id": 5,
+      "nama": "Melati Anisa",
+      "spesialis": "Kandungan",
+      "jam": "19:00",
+      "ruang": "E301"
     }
   ],
   "Rabu": [
     {
-      "id":1,
-      "nama":"Rabu"
+      "id": 1,
+      "nama": "Dwi Annisa",
+      "spesialis": "Kandungan",
+      "jam": "9:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 2,
+      "nama": "Sari Dian",
+      "spesialis": "Kandungan",
+      "jam": "10:00",
+      "ruang": "E304"
+    },
+    {
+      "id": 3,
+      "nama": "Nur Saiful Wibowo",
+      "spesialis": "Kandungan",
+      "jam": "14:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 4,
+      "nama": "Eka Lestari",
+      "spesialis": "Kandungan",
+      "jam": "17:00",
+      "ruang": "D204"
+    },
+    {
+      "id": 5,
+      "nama": "Citra Tirta",
+      "spesialis": "Kandungan",
+      "jam": "19:00",
+      "ruang": "E301"
     }
   ],
   "Kamis": [
     {
-      "id":1,
-      "nama":"Kamis"
+      "id": 1,
+      "nama": "Asih Lestari",
+      "spesialis": "Kandungan",
+      "jam": "9:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 2,
+      "nama": "Siti Asih",
+      "spesialis": "Kandungan",
+      "jam": "10:00",
+      "ruang": "E304"
+    },
+    {
+      "id": 3,
+      "nama": "Tri Anisa",
+      "spesialis": "Kandungan",
+      "jam": "14:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 4,
+      "nama": "Iman Danial Wibowo",
+      "spesialis": "Kandungan",
+      "jam": "17:00",
+      "ruang": "D204"
+    },
+    {
+      "id": 5,
+      "nama": "Batari Widya",
+      "spesialis": "Kandungan",
+      "jam": "19:00",
+      "ruang": "E301"
     }
   ],
   "Jumat": [
     {
-      "id":1,
-      "nama":"Jumat"
+      "id": 1,
+      "nama": "Bambang Sumarno",
+      "spesialis": "Kandungan",
+      "jam": "9:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 2,
+      "nama": "Sitti Latifah",
+      "spesialis": "Kandungan",
+      "jam": "10:00",
+      "ruang": "E304"
+    },
+    {
+      "id": 3,
+      "nama": "Widya Dian",
+      "spesialis": "Kandungan",
+      "jam": "14:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 4,
+      "nama": "Yuliana Aisyah",
+      "spesialis": "Kandungan",
+      "jam": "17:00",
+      "ruang": "D204"
+    },
+    {
+      "id": 5,
+      "nama": "Melati Dian",
+      "spesialis": "Kandungan",
+      "jam": "19:00",
+      "ruang": "E301"
     }
   ],
   "Sabtu": [
     {
-      "id":1,
-      "nama":"Sabtu"
+      "id": 1,
+      "nama": "Asih Putri",
+      "spesialis": "Kandungan",
+      "jam": "9:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 2,
+      "nama": "Latifah Dwi",
+      "spesialis": "Kandungan",
+      "jam": "10:00",
+      "ruang": "E304"
+    },
+    {
+      "id": 3,
+      "nama": "Kusuma Mega",
+      "spesialis": "Kandungan",
+      "jam": "14:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 4,
+      "nama": "Intan Indah",
+      "spesialis": "Kandungan",
+      "jam": "17:00",
+      "ruang": "D204"
+    },
+    {
+      "id": 5,
+      "nama": "Eka Dian",
+      "spesialis": "Kandungan",
+      "jam": "19:00",
+      "ruang": "E301"
     }
   ],
   "Minggu": [
     {
-      "id":1,
-      "nama":"Minggu"
+      "id": 1,
+      "nama": "Dian Asih",
+      "spesialis": "Kandungan",
+      "jam": "9:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 2,
+      "nama": "Aisyah Yuliana",
+      "spesialis": "Kandungan",
+      "jam": "10:00",
+      "ruang": "E304"
+    },
+    {
+      "id": 3,
+      "nama": "Nur Saiful Wibowo",
+      "spesialis": "Kandungan",
+      "jam": "14:00",
+      "ruang": "D205"
+    },
+    {
+      "id": 4,
+      "nama": "Tirta Siti",
+      "spesialis": "Kandungan",
+      "jam": "17:00",
+      "ruang": "D204"
+    },
+    {
+      "id": 5,
+      "nama": "Wati Asih",
+      "spesialis": "Kandungan",
+      "jam": "19:00",
+      "ruang": "E301"
     }
   ]
 }
