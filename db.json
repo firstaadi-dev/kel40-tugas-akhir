@@ -1,0 +1,44 @@
+{
+  "Senin": [
+    {
+      "id":1,
+      "nama":"Senin"
+    }
+  ],
+  "Selasa": [
+    {
+      "id":1,
+      "nama":"Selasa"
+    }
+  ],
+  "Rabu": [
+    {
+      "id":1,
+      "nama":"Rabu"
+    }
+  ],
+  "Kamis": [
+    {
+      "id":1,
+      "nama":"Kamis"
+    }
+  ],
+  "Jumat": [
+    {
+      "id":1,
+      "nama":"Jumat"
+    }
+  ],
+  "Sabtu": [
+    {
+      "id":1,
+      "nama":"Sabtu"
+    }
+  ],
+  "Minggu": [
+    {
+      "id":1,
+      "nama":"Minggu"
+    }
+  ]
+}
