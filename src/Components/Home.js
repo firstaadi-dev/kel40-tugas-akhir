@@ -1,3 +1,3 @@
 export function Home() {
-  return <p>Tes</p>;
+  return <p></p>;
 }

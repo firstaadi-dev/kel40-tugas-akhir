@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.body-1 {
+  color: rgb(0, 0, 0);
+  background: rgba(222, 70, 216, 0.2);
+}
+
+.body-2 {
+  color: rgb(0, 0, 0);
+  background: rgba(222, 70, 216, 0.3);
+}
+
+.body-3 {
+  color: rgb(0, 0, 0);
+  background: rgba(222, 70, 216, 0.4);
+}
+
+.body-4 {
+  color: rgb(0, 0, 0);
+  background: #fea9f0;
+}
+
+.body-5 {
+  color: rgb(0, 0, 0);
+  background: #fea9f0;
+}
+
+.title-1 {
+  width: 30vh;
+  font-size: 36px;
+}
+
+.Navbar {
+  left: 1px;
+  top: 10px;
+  bottom: 20px;
+
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 15px;
+}
