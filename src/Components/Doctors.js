@@ -108,11 +108,11 @@ function Data() {
 
   return (
     <div>
-      <Grid container spacing={3} padding="0px 600px 600px 600px">
+      <Grid container spacing={3} padding="0 10rem">
         {doctors.map((result) => {
           return (
-            <Grid item key={result.id} xs={6} className=" ">
-              <Card variant="outlined" style={{ width: "18rem", padding: "0.5 rem" }}>
+            <Grid item key={result.id} xl={6} xs={12} className=" ">
+              <Card variant="outlined" style={{ padding: "0.5 rem" }}>
                 <CardActionArea
                   onClick={() =>
                     OpenModal(
