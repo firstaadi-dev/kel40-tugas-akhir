@@ -112,7 +112,7 @@ function Data() {
         {doctors.map((result) => {
           return (
             <Grid item key={result.id} xs={6} className=" ">
-              <Card variant="outlined" style={{ width: "18rem" }}>
+              <Card variant="outlined" style={{ width: "18rem", padding: "0.5 rem" }}>
                 <CardActionArea
                   onClick={() =>
                     OpenModal(
