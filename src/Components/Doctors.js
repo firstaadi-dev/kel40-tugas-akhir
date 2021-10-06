@@ -1,45 +1,57 @@
-import { createContext, useContext, useEffect, useState } from 'react';
-import Modal from 'react-modal';
-import Button from '@mui/material/Button';
-import axios from 'axios';
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
-import Typography from '@mui/material/Typography';
-import { CardContent, CardMedia } from '@mui/material';
-import Container from 'react-bootstrap/Container';
+import { createContext, useContext, useEffect, useState } from "react";
+import Modal from "react-modal";
+import Button from "@mui/material/Button";
+import axios from "axios";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import Typography from "@mui/material/Typography";
+import { CardContent, CardMedia } from "@mui/material";
+import Container from "react-bootstrap/Container";
+import { Box } from "@mui/system";
+
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
 
 const DoctorsDayContext = createContext();
-Modal.setAppElement('#root');
+Modal.setAppElement("#root");
 
 function Doctors() {
-  const [valueDay, setValueDay] = useState('Senin');
+  const [valueDay, setValueDay] = useState("Senin");
   return (
     <DoctorsDayContext.Provider value={valueDay}>
       <br />
-      <div className=" text-center">
-        <Button variant="contained" onClick={() => setValueDay('Senin')}>
+      <Box display="flex" justifyContent="center" >
+        <Button sx={{ m: 2}} variant="contained" onClick={() => setValueDay("Senin")}>
           Senin
         </Button>
-        <Button variant="contained" onClick={() => setValueDay('Selasa')}>
+        <Button sx={{ m: 2}} variant="contained" onClick={() => setValueDay("Selasa")}>
           Selasa
         </Button>
-        <Button variant="contained" onClick={() => setValueDay('Rabu')}>
+        <Button sx={{ m: 2}} variant="contained" onClick={() => setValueDay("Rabu")}>
           Rabu
         </Button>
-        <Button variant="contained" onClick={() => setValueDay('Kamis')}>
+        <Button sx={{ m: 2}} variant="contained" onClick={() => setValueDay("Kamis")}>
           Kamis
         </Button>
-        <Button variant="contained" onClick={() => setValueDay('Jumat')}>
+        <Button sx={{ m: 2}} variant="contained" onClick={() => setValueDay("Jumat")}>
           Jumat
         </Button>
-        <Button variant="contained" onClick={() => setValueDay('Sabtu')}>
+        <Button sx={{ m: 2}} variant="contained" onClick={() => setValueDay("Sabtu")}>
           Sabtu
         </Button>
-        <Button variant="contained" onClick={() => setValueDay('Minggu')}>
+        <Button sx={{ m: 2}} variant="contained" onClick={() => setValueDay("Minggu")}>
           Minggu
         </Button>
-      </div>
+      </Box>
       <br />
       <Content />
     </DoctorsDayContext.Provider>
@@ -71,12 +83,18 @@ function Data() {
     setIsOpen(false);
   }
 
+  function pendaftaran() {
+    alert(
+      `Pendaftaran perjanjian untuk doktor ${currentDetail.Nama} berhasil dibuat`
+    );
+  }
+
   useEffect(() => {
     axios({
-      method: 'GET',
+      method: "GET",
       url: `http://localhost:3000/${day}`,
       headers: {
-        accept: '/',
+        accept: "/",
       },
     })
       .then((data) => {
@@ -93,14 +111,37 @@ function Data() {
       <Grid container spacing={3} padding="0px 600px 600px 600px">
         {doctors.map((result) => {
           return (
-            <Grid item key={result.id} xs={12} className=" ">
-              <Card variant="outlined" style={{ width: '18rem' }}>
-                <CardActionArea onClick={() => OpenModal(result.id, result.nama, result.spesialis, result.ruang, result.jam)}>
-                  <CardMedia component="img" height="200" image={Math.random() * 100 >= 50 ? 'https://i.ibb.co/Dwctwbh/doktor2-removebg-preview.png' : 'https://i.ibb.co/51dVPch/doctor1.png'} alt="doctor" />
+            <Grid item key={result.id} xs={6} className=" ">
+              <Card variant="outlined" style={{ width: "18rem" }}>
+                <CardActionArea
+                  onClick={() =>
+                    OpenModal(
+                      result.id,
+                      result.nama,
+                      result.spesialis,
+                      result.ruang,
+                      result.jam
+                    )
+                  }
+                >
+                  <CardMedia
+                    component="img"
+                    height="200"
+                    image={
+                      Math.random() * 100 >= 50
+                        ? "https://i.ibb.co/Dwctwbh/doktor2-removebg-preview.png"
+                        : "https://i.ibb.co/51dVPch/doctor1.png"
+                    }
+                    alt="doctor"
+                  />
                   <CardContent>
                     <Typography variant="h5">Nama: {result.nama}</Typography>
-                    <Typography variant="h5">Ruang Praktek:{result.ruang}</Typography>
-                    <Typography variant="h5">Jam Praktek:{result.jam}</Typography>
+                    <Typography variant="h5">
+                      Ruang Praktek:{result.ruang}
+                    </Typography>
+                    <Typography variant="h5">
+                      Jam Praktek:{result.jam}
+                    </Typography>
                   </CardContent>
                 </CardActionArea>
               </Card>
@@ -121,14 +162,35 @@ function Data() {
           );
         })}
         <Container>
-          <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={{ width: '50px' }}>
-            <Typography variant="h3">Detail Praktik Doktor {currentDetail.Nama}</Typography>
+          <Modal
+            isOpen={modalIsOpen}
+            onRequestClose={closeModal}
+            style={customStyles}
+          >
+            <Typography align="center" variant="h3">
+              Praktik Doktor {currentDetail.Nama}
+            </Typography>
             <br></br>
-            <Typography variant="h4">ID: {currentDetail.ID}</Typography>
-            <Typography variant="h4">Nama: {currentDetail.Nama}</Typography>
-            <Typography variant="h4">Spesialis: {currentDetail.Spesialis}</Typography>
-            <Typography variant="h4">Ruang: {currentDetail.Ruang}</Typography>
-            <Typography variant="h4">Jam Praktek: {currentDetail.Jam}</Typography>
+            <Typography align="center" variant="h4">
+              ID: {currentDetail.ID}
+            </Typography>
+            <Typography align="center" variant="h4">
+              Nama: {currentDetail.Nama}
+            </Typography>
+            <Typography align="center" variant="h4">
+              Spesialis: {currentDetail.Spesialis}
+            </Typography>
+            <Typography align="center" variant="h4">
+              Ruang: {currentDetail.Ruang}
+            </Typography>
+            <Typography align="center" variant="h4">
+              Jam Praktek: {currentDetail.Jam}
+            </Typography>
+            <Box textAlign="center">
+              <Button variant="contained" onClick={() => pendaftaran()}>
+                Buat Perjanjian
+              </Button>
+            </Box>
           </Modal>
         </Container>
       </Grid>

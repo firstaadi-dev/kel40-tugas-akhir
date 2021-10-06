@@ -1,14 +1,11 @@
-import './App.css';
-import { Link, Switch, Route, BrowserRouter } from 'react-router-dom';
-import { Home } from './Components/Home';
-import Doctors from './Components/Doctors';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import CardGroup from 'react-bootstrap/CardGroup';
+import "./App.css";
+import { Link, Switch, Route, BrowserRouter } from "react-router-dom";
+import { Home } from "./Components/Home";
+import Doctors from "./Components/Doctors";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -29,10 +26,36 @@ function App() {
     //     <Route path="/doctors" exact component={Doctors} />
     //   </Switch>
     // </BrowserRouter>
-    <>
-      
+    <BrowserRouter>
+      <Navbar collapseOnSelect className="Navbar" expand="lg">
+        <Container>
+          <Navbar.Brand href="/">
+            <img
+              src="https://www.linkpicture.com/q/logo_13.png"
+              width="380"
+              height="60"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto"></Nav>
+            <Nav>
+              <Link to="/">HOME</Link>
+              <Link to="/doctors">OUR DOCTORS</Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/doctors" exact component={Doctors} />
+      </Switch>
+    </BrowserRouter>
+    // <>
 
-      <Container>
+    /* <Container>
         <Card className=" bg-light text-Dark">
           <Card.Img src="https://www.linkpicture.com/q/baby-bg.jpeg" alt="Card image" width={500} height={500} />
           <Card.ImgOverlay>
@@ -134,7 +157,7 @@ function App() {
           <Route path="/doctors" exact component={Doctors} />
         </Switch>
       </BrowserRouter>
-    </>
+    </> */
   );
 }
 
