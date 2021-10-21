@@ -128,9 +128,7 @@ function Data() {
                     component="img"
                     height="200"
                     image={
-                      Math.random() * 100 >= 50
-                        ? "https://i.ibb.co/Dwctwbh/doktor2-removebg-preview.png"
-                        : "https://i.ibb.co/51dVPch/doctor1.png"
+                      result.image
                     }
                     alt="doctor"
                   />

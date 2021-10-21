@@ -5,35 +5,40 @@
       "nama": "Bambang Sumarno",
       "spesialis": "Kandungan",
       "jam": "9:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/VtHWBXq/1.png"
     },
     {
       "id": 2,
       "nama": "Ridwan Daud Wibowo",
       "spesialis": "Kandungan",
       "jam": "10:00",
-      "ruang": "E304"
+      "ruang": "E304",
+      "image": "https://i.ibb.co/rx7x0Nq/3.jpg"
     },
     {
       "id": 3,
       "nama": "Nur Saiful Wibowo",
       "spesialis": "Kandungan",
       "jam": "14:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/5170SmC/4.jpg"
     },
     {
       "id": 4,
       "nama": "Iman Danial Wibowo",
       "spesialis": "Kandungan",
       "jam": "17:00",
-      "ruang": "D204"
+      "ruang": "D204",
+      "image": "https://i.ibb.co/XkjrX8b/5.jpg"
     },
     {
       "id": 5,
       "nama": "Putra Muhamad Wibawa",
       "spesialis": "Kandungan",
       "jam": "19:00",
-      "ruang": "E301"
+      "ruang": "E301",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
     }
   ],
   "Selasa": [
@@ -42,35 +47,41 @@
       "nama": "Sri Putri Wibowo",
       "spesialis": "Kandungan",
       "jam": "9:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     },
     {
       "id": 7,
       "nama": "Kusuma Mega",
       "spesialis": "Kandungan",
       "jam": "10:00",
-      "ruang": "E304"
+      "ruang": "E304",
+      "image": "https://i.ibb.co/XkjrX8b/5.jpg"
     },
     {
-      "id": 3,
+      "id": 8,
       "nama": "Kusuma Dian",
       "spesialis": "Kandungan",
       "jam": "14:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/5170SmC/4.jpg"
     },
     {
-      "id": 4,
+      "id": 9,
       "nama": "Indah Tri",
       "spesialis": "Kandungan",
       "jam": "17:00",
-      "ruang": "D204"
+      "ruang": "D204",
+      "image": "https://i.ibb.co/rx7x0Nq/3.jpg"
     },
     {
-      "id": 5,
+      "id": 10,
       "nama": "Melati Anisa",
       "spesialis": "Kandungan",
       "jam": "19:00",
-      "ruang": "E301"
+      "ruang": "E301",
+      "image": "https://i.ibb.co/VtHWBXq/1.png"
     }
   ],
   "Rabu": [
@@ -79,35 +90,44 @@
       "nama": "Dwi Annisa",
       "spesialis": "Kandungan",
       "jam": "9:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/VtHWBXq/1.png"
     },
     {
       "id": 2,
       "nama": "Sari Dian",
       "spesialis": "Kandungan",
       "jam": "10:00",
-      "ruang": "E304"
+      "ruang": "E304",
+      "image": "https://i.ibb.co/rx7x0Nq/3.jpg"
+
     },
     {
       "id": 3,
       "nama": "Nur Saiful Wibowo",
       "spesialis": "Kandungan",
       "jam": "14:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/5170SmC/4.jpg"
+
     },
     {
       "id": 4,
       "nama": "Eka Lestari",
       "spesialis": "Kandungan",
       "jam": "17:00",
-      "ruang": "D204"
+      "ruang": "D204",
+      "image": "https://i.ibb.co/XkjrX8b/5.jpg"
+
     },
     {
       "id": 5,
       "nama": "Citra Tirta",
       "spesialis": "Kandungan",
       "jam": "19:00",
-      "ruang": "E301"
+      "ruang": "E301",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     }
   ],
   "Kamis": [
@@ -116,35 +136,45 @@
       "nama": "Asih Lestari",
       "spesialis": "Kandungan",
       "jam": "9:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     },
     {
       "id": 2,
       "nama": "Siti Asih",
       "spesialis": "Kandungan",
       "jam": "10:00",
-      "ruang": "E304"
+      "ruang": "E304",
+      "image": "https://i.ibb.co/XkjrX8b/5.jpg"
+
     },
     {
       "id": 3,
       "nama": "Tri Anisa",
       "spesialis": "Kandungan",
       "jam": "14:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/5170SmC/4.jpg"
+
     },
     {
       "id": 4,
       "nama": "Iman Danial Wibowo",
       "spesialis": "Kandungan",
       "jam": "17:00",
-      "ruang": "D204"
+      "ruang": "D204",
+      "image": "https://i.ibb.co/rx7x0Nq/3.jpg"
+
     },
     {
       "id": 5,
       "nama": "Batari Widya",
       "spesialis": "Kandungan",
       "jam": "19:00",
-      "ruang": "E301"
+      "ruang": "E301",
+      "image": "https://i.ibb.co/VtHWBXq/1.png"
+
     }
   ],
   "Jumat": [
@@ -153,35 +183,45 @@
       "nama": "Bambang Sumarno",
       "spesialis": "Kandungan",
       "jam": "9:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/VtHWBXq/1.png"
+
     },
     {
       "id": 2,
       "nama": "Sitti Latifah",
       "spesialis": "Kandungan",
       "jam": "10:00",
-      "ruang": "E304"
+      "ruang": "E304",
+      "image": "https://i.ibb.co/rx7x0Nq/3.jpg"
+
     },
     {
       "id": 3,
       "nama": "Widya Dian",
       "spesialis": "Kandungan",
       "jam": "14:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/5170SmC/4.jpg"
+
     },
     {
       "id": 4,
       "nama": "Yuliana Aisyah",
       "spesialis": "Kandungan",
       "jam": "17:00",
-      "ruang": "D204"
+      "ruang": "D204",
+      "image": "https://i.ibb.co/XkjrX8b/5.jpg"
+
     },
     {
       "id": 5,
       "nama": "Melati Dian",
       "spesialis": "Kandungan",
       "jam": "19:00",
-      "ruang": "E301"
+      "ruang": "E301",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     }
   ],
   "Sabtu": [
@@ -190,35 +230,45 @@
       "nama": "Asih Putri",
       "spesialis": "Kandungan",
       "jam": "9:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     },
     {
       "id": 2,
       "nama": "Latifah Dwi",
       "spesialis": "Kandungan",
       "jam": "10:00",
-      "ruang": "E304"
+      "ruang": "E304",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     },
     {
       "id": 3,
       "nama": "Kusuma Mega",
       "spesialis": "Kandungan",
       "jam": "14:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     },
     {
       "id": 4,
       "nama": "Intan Indah",
       "spesialis": "Kandungan",
       "jam": "17:00",
-      "ruang": "D204"
+      "ruang": "D204",
+      "image": "https://i.ibb.co/XkjrX8b/5.jpg"
+
     },
     {
       "id": 5,
       "nama": "Eka Dian",
       "spesialis": "Kandungan",
       "jam": "19:00",
-      "ruang": "E301"
+      "ruang": "E301",
+      "image": "https://i.ibb.co/5170SmC/4.jpg"
+
     }
   ],
   "Minggu": [
@@ -227,35 +277,45 @@
       "nama": "Dian Asih",
       "spesialis": "Kandungan",
       "jam": "9:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/5170SmC/4.jpg"
+
     },
     {
       "id": 2,
       "nama": "Aisyah Yuliana",
       "spesialis": "Kandungan",
       "jam": "10:00",
-      "ruang": "E304"
+      "ruang": "E304",
+      "image": "https://i.ibb.co/XkjrX8b/5.jpg"
+
     },
     {
       "id": 3,
       "nama": "Nur Saiful Wibowo",
       "spesialis": "Kandungan",
       "jam": "14:00",
-      "ruang": "D205"
+      "ruang": "D205",
+      "image": "https://i.ibb.co/TLS1wvt/6.jpg"
+
     },
     {
       "id": 4,
       "nama": "Tirta Siti",
       "spesialis": "Kandungan",
       "jam": "17:00",
-      "ruang": "D204"
+      "ruang": "D204",
+      "image": "https://i.ibb.co/VtHWBXq/1.png"
+
     },
     {
       "id": 5,
       "nama": "Wati Asih",
       "spesialis": "Kandungan",
       "jam": "19:00",
-      "ruang": "E301"
+      "ruang": "E301",
+      "image": "https://i.ibb.co/rx7x0Nq/3.jpg"
+
     }
   ]
 }
